@@ -1,11 +1,11 @@
+using System.Web.Mvc;
 public class Foo {
   public string main() {
-    return "foo";
+     return "foo";
   }
-  public string bar() {
-    return "bar";
-  }
+
   [ValidateInput(false)]
   public ActionResult ControllerMethod(string input) {
+     return "foo";
   }
 }
